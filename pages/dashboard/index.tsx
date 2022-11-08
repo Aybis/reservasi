@@ -1,9 +1,12 @@
 import React from 'react';
+import { Layout } from '../../components';
 
 export default function Dashboard() {
   return (
-    <div className="relative h-screen flex justify-center items-center bg-blue-400">
+    <Layout
+      pageTitle="Dashboard"
+      metaDescription="Halaman Dashboard Booking Meeting Room">
       Dashboard
-    </div>
+    </Layout>
   );
 }

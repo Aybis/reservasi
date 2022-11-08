@@ -6,8 +6,7 @@ import {
 } from '@heroicons/react/24/solid';
 import { useEffect, useState } from 'react';
 import { convertDate } from '../utils/convertDate';
-import Layout from './components/includes';
-import { Aside, Modals } from './components';
+import { Layout, Aside, Modals } from '../components';
 
 export default function Home() {
   const days = [

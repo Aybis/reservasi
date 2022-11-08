@@ -6,8 +6,8 @@ export default function Header() {
     <div className="relative top-0 ml-44 p-6 bg-white box-border">
       <div className="relative flex justify-between items-center text-zinc-800">
         <div className="relative">
-          <span className="font-light text-lg">Welcome back,</span>
-          <h1 className="text-2xl font-semibold leading-relaxed tracking-wide">
+          <span className="font-light text-sm">Welcome back,</span>
+          <h1 className="text-lg font-medium leading-relaxed tracking-wide">
             Abdul Muchtar Astria
           </h1>
         </div>
